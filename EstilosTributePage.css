@@ -1,4 +1,52 @@
+
+#main
+{
+    background-color: #E0E0E0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#title
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+#subtitle
+{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -25px;
+    padding: 0px;
+}
+#img-div
+{
+    background-color: white;
+    text-align: center;
+    width: 95%;
+    height: 600px;
+    margin-left: 30px;
+
+}
+img
+{
+    margin-top: 25px;
+    width: 75%;
+    height: 500px;
+}
+#img-caption
+{
+    font-size: 18px;
+}
+#tribute-info-title
+{
+    font-size: large;
+    text-align: center;
+    font-weight: bolder;
+}
 #tribute-info
 {
     text-align: justify;
 }
+/*Historia de Usuario #8: El elemento img debería cambiar de tamaño de forma responsiva, en relación al ancho de su elemento padre, sin exceder su tamaño original.*/
+/*Historia de Usuario #9: El elemento img debería estar centrado dentro de su elemento padre.*/
