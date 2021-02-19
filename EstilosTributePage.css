@@ -19,20 +19,25 @@
     margin-top: -25px;
     padding: 0px;
 }
+/*Historia de Usuario #8: El elemento img debería cambiar de tamaño de forma responsiva, en relación al ancho de su elemento padre, sin exceder su tamaño original.*/
+/*Historia de Usuario #9: El elemento img debería estar centrado dentro de su elemento padre.*/
 #img-div
 {
     background-color: white;
     text-align: center;
-    width: 95%;
-    height: 600px;
+    max-width: 100%;
+    height: auto;
     margin-left: 30px;
-
+    margin-right: 30px;
+    margin-top:30px;
 }
 img
 {
-    margin-top: 25px;
-    width: 75%;
-    height: 500px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding-top: 25px;
 }
 #img-caption
 {
@@ -47,6 +52,13 @@ img
 #tribute-info
 {
     text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
 }
-/*Historia de Usuario #8: El elemento img debería cambiar de tamaño de forma responsiva, en relación al ancho de su elemento padre, sin exceder su tamaño original.*/
-/*Historia de Usuario #9: El elemento img debería estar centrado dentro de su elemento padre.*/
+#footer
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    font-style: italic;
+}
